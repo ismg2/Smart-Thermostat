@@ -185,6 +185,7 @@
   },
   "active": "1fc2232eb81ea4af",
   "lastOpenFiles": [
+    "README.md",
     "Source_Models/TensorFlow_Keras/Interpretable-machine-learning-for-HVAC-predictive-control/models/benchmark_lstm_reg_STM32H7B3I-DK_20260219_2326.md",
     "benchmark_history.md",
     "Source_Models/TensorFlow_Keras/lstm-load-forecasting/models/notebook_03/benchmark_1_03_92_l-10_l-50_l-15_d-0.1_STM32N6570-DK_20260219_2336.md",
@@ -229,7 +230,6 @@
     "stm32ai-modelzoo-services/application_code/sensing/STM32U5/Middlewares/STM32_AI_AudioPreprocessing_Library/LICENSE.md",
     "stm32ai-modelzoo-services/application_code/sensing/STM32U5/Drivers/STM32U5xx_HAL_Driver/LICENSE.md",
     "stm32ai-modelzoo-services/image_classification/pt/src/models/mobilenetv3/LICENSE.md",
-    "stm32ai-modelzoo-services/image_classification/pt/src/models/mobilenetv1/LICENSE.md",
-    "stm32ai-modelzoo-services/image_classification/pt/src/models/fasternet/LICENSE.md"
+    "stm32ai-modelzoo-services/image_classification/pt/src/models/mobilenetv1/LICENSE.md"
   ]
 }

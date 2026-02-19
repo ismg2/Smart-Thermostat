@@ -101,7 +101,9 @@ clone_one() {
         read -r answer
     fi
 
-    case "${answer,,}" in
+    local answer_lc
+    answer_lc="$(echo "$answer" | tr '[:upper:]' '[:lower:]')"
+    case "$answer_lc" in
         y|yes|o|oui)
             echo -e "       ${BLUE}⏳ Clonage en cours…${RESET}"
             if git clone $extra "$url" "$dest/$repo_name" 2>&1 | sed 's/^/          /'; then

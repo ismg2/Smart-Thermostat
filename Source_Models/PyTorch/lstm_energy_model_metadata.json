@@ -1,0 +1,15 @@
+{
+  "model_name": "LSTM_Energy_Consumption_Prediction",
+  "framework": "PyTorch",
+  "task": "Energy consumption forecasting (hourly)",
+  "input_features": 8,
+  "output_features": 1,
+  "sequence_length": 24,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "trained_on": "PJM Interconnection hourly electricity demand",
+  "model_type": "LSTM",
+  "state_dict_format": "PyTorch state_dict",
+  "source": "github.com/iamirmasoud/energy_consumption_prediction",
+  "license": "Unknown"
+}

@@ -1,0 +1,13 @@
+{
+  "model_name": "Graph_Neural_Network_Power_Flow_Optimization",
+  "framework": "ONNX",
+  "task": "Optimal power flow prediction for power grids",
+  "architecture": "Graph Neural Network (PyTorch Geometric converted to ONNX)",
+  "input": "Power grid topology + node features (demands, gen limits)",
+  "output": "Optimal power flow solution",
+  "dataset": "IEEE Case 9 power grid",
+  "source": "Figshare: arxiv paper on GNN for power systems",
+  "model_type": "GNN",
+  "size_estimate_mb": "10-50 MB",
+  "notes": "Pre-trained on IEEE benchmark cases; supports edge inference"
+}

@@ -1,0 +1,255 @@
+================================================================================
+QUICK MODEL DOWNLOAD GUIDE - Copy & Paste Ready Commands
+================================================================================
+
+RUN THESE COMMANDS WHEN NETWORK ACCESS IS AVAILABLE:
+
+================================================================================
+HVAC CONTROL AGENTS (Stable-Baselines3 / PyTorch)
+================================================================================
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/PyTorch/
+
+# Gnu-RL: Precocial RL for building HVAC with MPC
+git clone https://github.com/INFERLab/Gnu-RL.git
+
+# PEARL: Low emissions building control via RL
+git clone https://github.com/enjeeneer/PEARL.git
+
+# CLUE: Safe model-based RL for HVAC (2024)
+git clone https://github.com/ryeii/CLUE.git
+
+# DRL Building Energy Control: Heat pump & thermal storage
+git clone https://github.com/ULodo/DRL-Building-Energy-Ctr.git
+
+================================================================================
+ENERGY CONSUMPTION FORECASTING (LSTM/GRU - 10-100 MB)
+================================================================================
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/TensorFlow_Keras/
+
+# Swiss electricity load forecasting LSTM (MIT License) - BEST FOR START
+git clone https://github.com/dafrie/lstm-load-forecasting.git
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/PyTorch/
+
+# PJM grid energy consumption LSTM/GRU
+git clone https://github.com/iamirmasoud/energy_consumption_prediction.git
+
+# PyTorch Lightning energy forecasting (LSTM + Transformer)
+git clone https://github.com/AhmetZamanis/DeepLearningEnergyForecasting.git
+
+# Hybrid Random Forest-LSTM with CEEMDAN
+git clone https://github.com/irenekarijadi/RF-LSTM-CEEMDAN.git
+
+# Electricity demand & price forecasting (multiple architectures)
+git clone https://github.com/ritikdhame/Electricity_Demand_and_Price_forecasting.git
+
+================================================================================
+TEMPERATURE FORECASTING (RNN/LSTM)
+================================================================================
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/TensorFlow_Keras/
+
+# Temperature RNN
+git clone https://github.com/laserprec/temperature-rnn.git
+
+# Weather prediction LSTM
+git clone https://github.com/RobotGyal/Weather-Prediction.git
+
+# Time-series weather forecast (RNN/GRU/LSTM)
+git clone https://github.com/exchhattu/TimeseriesWeatherForecast-RNN-GRU-LSTM.git
+
+# CNN-LSTM energy forecasting
+git clone https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting.git
+
+# Multi-step time-series forecasting
+git clone https://github.com/00ber/multi-step-time-series-forecasting.git
+
+================================================================================
+THERMAL COMFORT PREDICTION (PyTorch CNN-LSTM, GNN, Transformer)
+================================================================================
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/PyTorch/
+
+# CNN-LSTM transfer learning (low-resource buildings)
+git clone https://github.com/anirudhs123/Thermal-comfort-prediction-in-low-resourced-buildings.git
+
+# Build2Vec: Graph Neural Networks for thermal comfort
+git clone https://github.com/buds-lab/build2vec-thermal-comfort.git
+
+# CCM: Cohort Comfort Models
+git clone https://github.com/buds-lab/ccm.git
+
+# ComfortGAN: GAN-based comfort dataset balancing
+git clone https://github.com/buds-lab/comfortGAN.git
+
+# ComfortGPT: Transformer-based temperature prediction
+git clone https://github.com/Building-Robotics-Lab/ComfortGPT.git
+
+# Interpretable ML for HVAC predictive control
+git clone https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control.git
+
+================================================================================
+OCCUPANCY DETECTION (TFLite, YOLOv4, PyTorch)
+================================================================================
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/TensorFlow_Keras/
+
+# YOLOv4-tiny TFLite for person/occupancy detection (5-10 MB, EDGE COMPATIBLE!)
+git clone https://github.com/DoranLyong/yolov4-tiny-tflite-for-person-detection.git
+
+# TensorFlow Lite object detection (person detection for Raspberry Pi)
+git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git
+
+cd /sessions/great-awesome-davinci/mnt/Smart\ Thermostat/Source_Models/PyTorch/
+
+# OFMPNet: Urban occupancy & flow prediction
+git clone https://github.com/YoushaaMurhij/OFMPNet.git
+
+# Occupancy networks (3D implicit surface representation)
+git clone https://github.com/autonomousvision/occupancy_networks.git
+
+================================================================================
+SUPPORTING LIBRARIES & TOOLS (Install via pip when network available)
+================================================================================
+
+pip install stable-baselines3          # RL agents framework
+pip install sinergym                   # EnergyPlus simulation environment
+pip install citylearn                  # Multi-agent building control environment
+pip install tensorflow                 # TensorFlow/Keras
+pip install torch                      # PyTorch
+pip install h5py                       # Load .h5 model files
+pip install onnx                       # Load .onnx models
+pip install pythermalcomfort           # Thermal comfort calculation library
+
+================================================================================
+DOWNLOADING MODELS FROM HUGGINGFACE (when network available)
+================================================================================
+
+# Search and list available models:
+curl "https://huggingface.co/api/models?search=hvac&limit=20"
+curl "https://huggingface.co/api/models?search=thermal+comfort&limit=20"
+curl "https://huggingface.co/api/models?search=building+energy&limit=20"
+curl "https://huggingface.co/api/models?search=occupancy+detection&limit=10"
+
+# Download specific model files:
+wget https://huggingface.co/{model_id}/resolve/main/{filename}
+
+# Example:
+wget https://huggingface.co/some-author/energy-model/resolve/main/model.onnx
+
+================================================================================
+DATASETS FROM ZENODO (Large files - 2-5 GB)
+================================================================================
+
+# Three-Year Building Operations Dataset (Berkeley, 2.38 GB)
+wget https://zenodo.org/records/5951008/files/building_data.zip
+
+# HVAC Data of US Buildings
+wget https://zenodo.org/records/15662534
+
+# IoT Smart Building Dataset
+wget https://zenodo.org/records/12750891
+
+# HEMStoEC: Energy Management System Dataset
+wget https://zenodo.org/records/8096648
+
+# Multi-Residential Plus Energy Building Models
+wget https://zenodo.org/records/10255302
+
+================================================================================
+EXTRACTION GUIDE (After downloading .zip or .tar.gz files)
+================================================================================
+
+# Extract .zip files:
+unzip filename.zip
+
+# Extract .tar.gz files:
+tar -xzf filename.tar.gz
+
+# Extract .tar files:
+tar -xf filename.tar
+
+================================================================================
+FILE LOCATIONS IN REPOSITORIES
+================================================================================
+
+After cloning, look for model files in these typical locations:
+
+lstm-load-forecasting/
+  └── models/               <-- .h5 model files here
+
+energy_consumption_prediction/
+  └── models/               <-- .pt/.pth files
+
+Gnu-RL/
+  └── agents/               <-- .zip checkpoint files
+
+thermal-comfort-prediction/
+  └── models/               <-- .pt model files
+
+yolov4-tiny-tflite-for-person-detection/
+  └── model/                <-- .tflite file here (5-10 MB)
+
+================================================================================
+VERIFICATION COMMANDS (After downloading model files)
+================================================================================
+
+# Check file size:
+ls -lh filename.h5
+
+# Verify .h5 files:
+python3 -c "import h5py; f=h5py.File('model.h5'); print(list(f.keys()))"
+
+# Verify .pt/.pth files:
+python3 -c "import torch; m=torch.load('model.pt', map_location='cpu'); print(type(m))"
+
+# Verify .tflite files:
+python3 -c "import tflite_runtime.interpreter as tflite; i=tflite.Interpreter('m.tflite'); i.allocate_tensors(); print('OK')"
+
+# Verify .onnx files:
+python3 -c "import onnx; m=onnx.load('model.onnx'); print(m.graph.name)"
+
+================================================================================
+PRIORITY DOWNLOAD ORDER (Start with these)
+================================================================================
+
+1. LSTM Load Forecasting (dafrie) - Most complete, MIT license
+   git clone https://github.com/dafrie/lstm-load-forecasting.git
+
+2. Gnu-RL - Most advanced HVAC control
+   git clone https://github.com/INFERLab/Gnu-RL.git
+
+3. YOLOv4-TFLite - Edge-ready occupancy detection
+   git clone https://github.com/DoranLyong/yolov4-tiny-tflite-for-person-detection.git
+
+4. Energy Consumption LSTM - Well-documented energy forecasting
+   git clone https://github.com/iamirmasoud/energy_consumption_prediction.git
+
+5. Thermal Comfort CNN-LSTM - Transfer learning for comfort
+   git clone https://github.com/anirudhs123/Thermal-comfort-prediction-in-low-resourced-buildings.git
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If git clone is slow:
+  git clone --depth 1 https://github.com/user/repo.git  # Shallow clone
+
+If git clone fails (network):
+  Contact IT to allowlist: github.com, raw.githubusercontent.com
+
+If downloading pip packages fails:
+  pip install --proxy [user:passwd@]proxy.server:port package_name
+
+If models not found in repository:
+  Check "Releases" tab on GitHub for downloadable files
+  Or check README.md in repository for download links
+
+================================================================================
+
+GENERATED: February 19, 2026
+TOTAL MODELS LISTED: 28+
+ALL MODELS TESTED: No (Network blocked)
+STATUS: Ready for deployment when network access available

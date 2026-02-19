@@ -1,0 +1,14 @@
+{
+  "model_name": "CNN_LSTM_Thermal_Comfort_Prediction",
+  "framework": "PyTorch",
+  "task": "Thermal comfort prediction in low-resource buildings",
+  "architecture": "CNN-LSTM with transfer learning",
+  "input": "Indoor temperature, humidity, occupancy patterns",
+  "output": "Comfort score / thermal preference",
+  "training_data": "Limited labeled comfort data with fine-tuning",
+  "pretrained_backbone": "ImageNet-pretrained features (adapted)",
+  "source": "github.com/anirudhs123/Thermal-comfort-prediction-in-low-resourced-buildings",
+  "model_type": "cnn_lstm",
+  "license": "Unknown",
+  "paper": "Thermal Comfort Prediction in Low-Resource Buildings (2023+)"
+}

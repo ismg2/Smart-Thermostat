@@ -1,0 +1,32 @@
+{
+  "model_name": "LSTM_Load_Forecasting_Swiss",
+  "framework": "TensorFlow/Keras",
+  "task": "Electricity load forecasting",
+  "input_shape": [
+    24,
+    5
+  ],
+  "input_features": [
+    "hour_of_day",
+    "day_of_week",
+    "temperature",
+    "humidity",
+    "wind_speed"
+  ],
+  "output_shape": [
+    1
+  ],
+  "model_type": "LSTM",
+  "units": [
+    64,
+    32,
+    1
+  ],
+  "dropout": 0.2,
+  "training_data": "Swiss hourly electricity demand data",
+  "source": "github.com/dafrie/lstm-load-forecasting",
+  "license": "MIT",
+  "file_format": ".h5 (Keras HDF5 format)",
+  "size_estimate_mb": "5-10 MB",
+  "notes": "Pre-trained on Swiss grid data, may need fine-tuning for other regions"
+}

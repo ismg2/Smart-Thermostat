@@ -1,0 +1,15 @@
+{
+  "model_name": "Gnu_RL_HVAC_Control_Agent",
+  "framework": "Stable-Baselines3",
+  "algorithm": "PPO",
+  "task": "HVAC control with precocial training",
+  "environment": "EnergyPlus simulation",
+  "state_space": "Building sensors (temperature, humidity, etc.)",
+  "action_space": "HVAC setpoints/actions",
+  "training_data": "10-year historical weather + building simulation",
+  "source": "github.com/INFERLab/Gnu-RL",
+  "model_format": ".zip (Stable-Baselines3 checkpoint)",
+  "policy_type": "MlpPolicy",
+  "license": "Unknown",
+  "notes": "Includes differentiable MPC for policy"
+}

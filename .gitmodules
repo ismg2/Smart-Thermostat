@@ -1,0 +1,83 @@
+[submodule "stm32ai-modelzoo-services"]
+	path = stm32ai-modelzoo-services
+	url = https://github.com/STMicroelectronics/stm32ai-modelzoo-services.git
+
+[submodule "Source_Models/ONNX/build2vec-thermal-comfort"]
+	path = Source_Models/ONNX/build2vec-thermal-comfort
+	url = https://github.com/buds-lab/build2vec-thermal-comfort.git
+
+[submodule "Source_Models/ONNX/models"]
+	path = Source_Models/ONNX/models
+	url = https://github.com/onnx/models.git
+
+[submodule "Source_Models/PyTorch/CLUE"]
+	path = Source_Models/PyTorch/CLUE
+	url = https://github.com/ryeii/CLUE.git
+
+[submodule "Source_Models/PyTorch/ComfortGPT"]
+	path = Source_Models/PyTorch/ComfortGPT
+	url = https://github.com/Building-Robotics-Lab/ComfortGPT.git
+
+[submodule "Source_Models/PyTorch/ComfortLearn"]
+	path = Source_Models/PyTorch/ComfortLearn
+	url = https://github.com/buds-lab/ComfortLearn.git
+
+[submodule "Source_Models/PyTorch/DRL-Building-Energy-Ctr"]
+	path = Source_Models/PyTorch/DRL-Building-Energy-Ctr
+	url = https://github.com/ULudo/DRL-Building-Energy-Ctr.git
+
+[submodule "Source_Models/PyTorch/DeepLearningEnergyForecasting"]
+	path = Source_Models/PyTorch/DeepLearningEnergyForecasting
+	url = https://github.com/AhmetZamanis/DeepLearningEnergyForecasting.git
+
+[submodule "Source_Models/PyTorch/Gnu-RL"]
+	path = Source_Models/PyTorch/Gnu-RL
+	url = https://github.com/INFERLab/Gnu-RL.git
+
+[submodule "Source_Models/PyTorch/PDE-HVAC-control"]
+	path = Source_Models/PyTorch/PDE-HVAC-control
+	url = https://github.com/alwaysbyx/PDE-HVAC-control.git
+
+[submodule "Source_Models/PyTorch/PEARL"]
+	path = Source_Models/PyTorch/PEARL
+	url = https://github.com/enjeeneer/PEARL.git
+
+[submodule "Source_Models/PyTorch/RF-LSTM-CEEMDAN"]
+	path = Source_Models/PyTorch/RF-LSTM-CEEMDAN
+	url = https://github.com/irenekarijadi/RF-LSTM-CEEMDAN.git
+
+[submodule "Source_Models/PyTorch/Thermal-comfort-prediction-in-low-resourced-buildings"]
+	path = Source_Models/PyTorch/Thermal-comfort-prediction-in-low-resourced-buildings
+	url = https://github.com/anirudhs123/Thermal-comfort-prediction-in-low-resourced-buildings.git
+
+[submodule "Source_Models/PyTorch/ccm"]
+	path = Source_Models/PyTorch/ccm
+	url = https://github.com/buds-lab/ccm.git
+
+[submodule "Source_Models/PyTorch/energy_consumption_prediction"]
+	path = Source_Models/PyTorch/energy_consumption_prediction
+	url = https://github.com/iamirmasoud/energy_consumption_prediction.git
+
+[submodule "Source_Models/TensorFlow_Keras/CNN-LSTM-model-for-energy-usage-forecasting"]
+	path = Source_Models/TensorFlow_Keras/CNN-LSTM-model-for-energy-usage-forecasting
+	url = https://github.com/muntasirhsn/CNN-LSTM-model-for-energy-usage-forecasting.git
+
+[submodule "Source_Models/TensorFlow_Keras/Interpretable-machine-learning-for-HVAC-predictive-control"]
+	path = Source_Models/TensorFlow_Keras/Interpretable-machine-learning-for-HVAC-predictive-control
+	url = https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control.git
+
+[submodule "Source_Models/TensorFlow_Keras/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi"]
+	path = Source_Models/TensorFlow_Keras/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
+	url = https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git
+
+[submodule "Source_Models/TensorFlow_Keras/comfortGAN"]
+	path = Source_Models/TensorFlow_Keras/comfortGAN
+	url = https://github.com/buds-lab/comfortGAN.git
+
+[submodule "Source_Models/TensorFlow_Keras/lstm-load-forecasting"]
+	path = Source_Models/TensorFlow_Keras/lstm-load-forecasting
+	url = https://github.com/dafrie/lstm-load-forecasting.git
+
+[submodule "Source_Models/TensorFlow_Keras/yolov4-tiny-tflite-for-person-detection"]
+	path = Source_Models/TensorFlow_Keras/yolov4-tiny-tflite-for-person-detection
+	url = https://github.com/DoranLyong/yolov4-tiny-tflite-for-person-detection.git
